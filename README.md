@@ -26,3 +26,8 @@ var finalPassword = "" // i created an empty variable so I can store the final p
   based on the number the user typed. Then I store these items in a new variable called randomResult.
   And finally I add these values to the finalPassword variable.
   At the end of this function, return finalPassword will print the generated password to the users screen.
+  
+  <img width="1246" alt="Screenshot 2023-01-09 at 20 40 46" src="https://user-images.githubusercontent.com/118014637/211404173-659991c1-42ff-4934-94ea-62e449a575bd.png">
+  
+  URL to the deployed application :
+  
