@@ -86,7 +86,7 @@ var upperCasedCharacters = [
 ];
 
 var combinedArray = []; // I will store the selected arrays in this empty array, based on the users choice
-var numberChoice //I will store the selected length of the password in this variable
+var numberChoice; //I will store the selected length of the password in this variable
 
   
 
@@ -163,15 +163,13 @@ function getRandom(arr) {
 // Function to generate password with user input
 function generatePassword() {
   getPasswordOptions();
+  
   var finalPassword = "" // i created an empty variable so I can store the final password here
  
-   console.log('Number choice is :', numberChoice);
   for ( var i = 0; i < numberChoice; i++) {
     var randomResult = getRandom(combinedArray)
     finalPassword += randomResult
   } // this for loop will iterate through the combined array and get random characters from it, based on the user input
-  
-  
   
   
   return finalPassword //this will show the user their final password
