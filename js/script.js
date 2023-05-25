@@ -94,7 +94,8 @@ var numberChoice; //I will store the selected length of the password in this var
 
 // In this passwordChoice object I can store all the values from the users input
 function getPasswordOptions() {
-var passwordChoice =  {
+  combinedArray = [];
+  var passwordChoice =  {
   length : 0,
   lowercase : false,
   uppercase : false,
@@ -145,6 +146,10 @@ if (specialCharacterChoice === true) {
 } //if they would like to include special characters, i will push the special characters array in the combined one
 console.log('Combined array = ', combinedArray)
 //I repeat this with all the questions, and I store the answers in the objects variables, reassigning the values with the user input
+if (combinedArray = [] ) {
+  alert('You must choose something!')
+}
+
 return passwordChoice;
 }
 
